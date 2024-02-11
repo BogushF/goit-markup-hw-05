@@ -660,13 +660,13 @@ a:focus {
 }
 
 .cross-btn:hover,
-.crossline-button:focus {
+.cross-button:focus {
   background-color: #404bbf;
   border: none;
 }
 
-.cross-btn:hover > .crossline,
-.cross-btn:focus > .crossline {
+.cross-btn:hover > .cross,
+.cross-btn:focus > .cross {
   fill: #ffffff;
 }
 
@@ -720,12 +720,12 @@ a:focus {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-icon .modal-input:focus {
+.modal-input:focus {
   border-color: #4d5ae5;
 }
 
 .modal-input:focus + .icon-input {
-  fill: var(--accent-color);
+  fill: #4d5ae5;
 }
 
 .modal-textarea {
