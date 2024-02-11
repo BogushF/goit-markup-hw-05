@@ -660,7 +660,7 @@ a:focus {
 }
 
 .cross-btn:hover,
-.cross-button:focus {
+.cross-btn:focus {
   background-color: #404bbf;
   border: none;
 }
@@ -677,7 +677,7 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--title-text-color);
+  color: #2e2f42;
   margin-bottom: 16px;
 }
 
